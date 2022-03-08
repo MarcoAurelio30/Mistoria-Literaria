@@ -1,0 +1,67 @@
+header{
+	background:#ffffff;
+	padding: 0 0 60px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 img{
+	width: 250px;
+}
+
+nav{
+	position: absolute;
+	right: 0;
+	top: 110px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+				
+.img-critica{
+	width: 60%;
+	border: 2px solid #000000;
+	margin: 50px 0 50px 265px;
+}
+
+
+p{
+	text-align: center;
+	font-size: 22px;
+}
+
+footer{
+	background:url("../imagens/footer2.png");
+	padding: 0 0 40px 0;
+	text-align: center;
+	margin-top: 30px;
+}
+footer img{
+	width: 250px;
+
+}
+
+.img-insta{
+	width: 40px;
+	position: relative;
+	left: 495px;
+	top: 30px;

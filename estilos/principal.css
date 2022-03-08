@@ -1,0 +1,93 @@
+
+header{
+	background:#ffffff;
+	padding: 0 0 60px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+h1 img{
+	width: 250px;
+}
+	
+
+nav{
+	position: absolute;
+	right: 0;
+	top: 110px;
+
+	
+}
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+	
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+
+.livros{
+	width: 1300px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+.livros li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.livros h2{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 0 0 0;
+}
+
+
+
+.livros img{
+	width:200px ;
+	height: 280px;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+.livros img:hover{
+	border-color: #ff0000;
+
+}
+footer{
+	background:url("../imagens/footer.png") ;
+	padding: 40px 0;
+	text-align: center;
+}
+footer img{
+	width: 250px;
+
+}
+
+.img-insta{
+	width: 40px;
+	position: relative;
+	left: 495px;
+	top: 30px;
+
+
+	
+}
