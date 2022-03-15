@@ -42,7 +42,9 @@ nav a{
 .livros{
 	width: 1300px;
 	margin: 0 auto;
+
 	padding: 50px;
+
 }
 
 
@@ -56,8 +58,10 @@ nav a{
 .livros h2{
 	font-size: 20px;
 	font-weight: bold;
+
 	padding: 6px 0 30px 0;
 	
+
 }
 
 
