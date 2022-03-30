@@ -33,14 +33,17 @@ nav a{
 	text-decoration: none;
 }
 
+nav a:hover{
+	color: #8338ec;
+	text-decoration: underline;
+}
+
 h2{
 	padding: 15px 0 25px 0;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
 }
-
-
 
 #banner{
 	width: 60%;
@@ -48,19 +51,28 @@ h2{
 	margin: 25px 0 15px 265px;
 }
 
-
 p{
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
+	line-height: 1.4;
 }
 
-	
-#img-autora{
-	width: 260px;
+div{
+	width: 675px;
+	margin: 0 auto;
+}
+
+.img-autora{
+	width: 35%;
 	border: 2px solid #000000;
-	margin: 15px 0 15px 550px;
+	float: left;
 }
 
+.descricao-autora{
+	width: 65%;
+	text-align: center;
+	
+}
 
 footer{
 	background:url("../imagens/footer.png") ;

@@ -8,26 +8,21 @@ header{
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
-
 }
+
 h1 img{
 	width: 250px;
 }
-	
 
 nav{
 	position: absolute;
 	right: 0;
 	top: 110px;
-
-	
 }
-
 
 nav li{
 	display: inline;
 	margin: 0 0 0 15px;
-	
 }
 
 nav a{
@@ -36,55 +31,63 @@ nav a{
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+nav a:hover{
+	color: #8338ec;
+	text-decoration: underline;
+}
+
+section{
 	
 }
 
+a:visited {
+ color: #000000;}
+
 .livros{
-	width: 1300px;
+	width: 940px;
 	margin: 0 auto;
-
-	padding: 50px;
-
 }
-
 
 .livros li{
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-left: 45px;
+	margin: 0 20px;
 }
-
-.livros h2{
-	font-size: 20px;
-	font-weight: bold;
-
-	padding: 6px 0 30px 0;
-	
-
-}
-
-
 
 .livros img{
-	width:200px ;
+	width: 200px;
 	height: 280px;
 	border: 2px solid #000000;
 	border-radius: 15px;
 }
 
 .livros img:hover{
-	border-color: #ff0000;
-
+	border-color: #8338ec;
 }
+
+.livros a:hover h2{
+	font-size: 15px;
+	color: #8338ec;
+}
+
+.livros h2{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 0 30px 0;
+	text-decoration: none;
+}
+
 footer{
 	background:url("../imagens/footer.png") ;
 	padding: 40px 0;
 	text-align: center;
 }
+
 footer img{
 	width: 250px;
-
 }
 
 .img-insta{
@@ -92,7 +95,4 @@ footer img{
 	position: relative;
 	left: 495px;
 	top: 30px;
-
-
-	
 }

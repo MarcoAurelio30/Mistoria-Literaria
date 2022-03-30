@@ -19,11 +19,6 @@ nav{
 	top: 110px;
 }
 
-nav li{
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
 nav a{
 	text-transform: uppercase;
 	color: #000000;
@@ -32,21 +27,48 @@ nav a{
 	text-decoration: none;
 }
 
+nav a:hover{
+	color: #8338ec;
+	text-decoration: underline;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
 h2{
 	text-align: center;
-	font-size: 30px;
+	font-size: 2em;
+	margin: 2em 0;
+}
+
+.conteudo-critica{
+	width: 940px;
+	margin: 0 auto;
 }
 				
 .img-critica{
-	width: 60%;
+	width: 100%;
 	border: 2px solid #000000;
-	margin: 50px 0 50px 265px;
+	margin-bottom: 30px;
+	
+}
+
+strong{
+	font-weight: bold;
+	color: red;
+}
+
+em{
+	font-style: italic;
 }
 
 
 p{
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
+	line-height: 1.4;
 }
 
 footer{
