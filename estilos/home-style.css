@@ -68,6 +68,7 @@ div{
 
 .img-autora{
 	width: 35%;
+	height: 260px;
 	border: 2px solid #000000;
 	float: left;
 	margin: 0 0 30px 80px;
@@ -75,7 +76,7 @@ div{
 
 .descricao-autora{
 	width: 45%;
-	padding: 0 0 30px 270px;
+	padding: 0 0 50px 320px;
 	position: relative;
 	left: 30px;
 
