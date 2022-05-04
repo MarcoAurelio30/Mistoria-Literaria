@@ -59,7 +59,7 @@ h2{
 	color: darkblue;
 }
 
-strong{
+.gatilho strong{
 	font-weight: bold;
 	color: red;
 }
@@ -68,6 +68,10 @@ em{
 	font-style: italic;
 }
 
+strong{
+	font-weight: bold;
+	color: black;
+}
 
 p{
 	text-align: center;
